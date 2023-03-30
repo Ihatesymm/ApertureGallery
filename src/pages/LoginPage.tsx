@@ -4,7 +4,7 @@ import Image from "../assets/images/full-logo.svg"
 
 const LoginPage = () => {
   return (
-    <div className="flex justify-center items-center bg-gradient-to-bl from-backgroundtop to-backgroundbottom h-screen w-screen select-none z-0">
+    <div className="flex justify-center items-center h-[100vh] select-none z-0">
       <div className="flex w-[650px] h-[650px]">
         <div className="flex-col flex-1 h-full bg-gradient bg-gradient-to-bl from-tabletop to-tablebottom rounded-3xl drop-shadow-2xl">
           <div className="flex flex-col justify-center items-center h-[60%] gap-8">

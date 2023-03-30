@@ -1,17 +1,20 @@
 import React from 'react';
 import './App.css';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import StartPage from './pages/LoginPage';
+import LoginPage from './pages/LoginPage';
 import Header from './components/Header';
 
 function App() {
   return (
-    <Router>
+    <div className="relative z-0 top-0 inset-x-0 bg-gradient-to-bl from-backgroundtop to-backgroundbottom h-screen w-screen">
       <Header />
-      <Routes>
-        <Route path="/login" element={<StartPage />} />
-      </Routes>
-    </Router>
+      <Router>
+        <Routes>
+          <Route path="/" element={<></>}></Route>
+          <Route path="/login" element={<LoginPage />}></Route>
+        </Routes>
+      </Router>
+    </div>
   );
 }
 

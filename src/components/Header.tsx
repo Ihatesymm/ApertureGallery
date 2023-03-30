@@ -4,7 +4,7 @@ import { FaUserCircle } from "react-icons/fa";
 
 const Header = () => {
   return (
-    <header className="sticky w-screen z-1000 justify-between items-center from-tabletop to-tablebottom drop-shadow bg-gradient bg-gradient-to-bl h-16">
+    <header className="absolute z-50 w-screen items-center from-tabletop to-tablebottom drop-shadow bg-gradient bg-gradient-to-bl h-16">
       <div className="flex justify-between items-center h-full w-full px-60">
         <div className="flex w-[16%]">
           {/* Кнопка-логотип */}
