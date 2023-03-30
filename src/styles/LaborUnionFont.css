@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'LaborUnion';
+    src: url("../assets/fonts/LaborUnion.ttf") format('truetype');
+  }
+  
+  body {
+    font-family: 'LaborUnion', sans-serif;
+  }

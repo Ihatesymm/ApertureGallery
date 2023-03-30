@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'Dongle';
+    src: url("../assets/fonts/Dongle.ttf") format('truetype');
+  }
+  
+  h6 {
+    font-family: 'Dongle', sans-serif;
+  }
